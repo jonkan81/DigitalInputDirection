@@ -1,0 +1,31 @@
+{
+    "name": "SignalK-DigitalInputDirection",
+    "version": "0.1.0",
+    "description": "Calculates rotation direction using two hall sensors mounted in <= 90 degrees around a rotating entity. Output is transported via WiFi to a Signal K server. Runs on Espressif ESP32 and ESP8266 processors in the Arduino environment.",
+    "keywords": "rotation direction, Signal K, sensESP",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/jonkan81/DigitalInputDirection"
+    },
+    "authors":
+    [
+      {
+        "name": "Jonatan Olofsson",
+        "email": "olofsson.jonatan@gmail.com",
+        "url": "https://github.com/jonkan81",
+        "maintainer": true
+      }
+    ],
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/jonkan81/DigitalInputDirection",
+    "dependencies": 
+    [ 
+      {
+        "name": "SensESP",
+        "version": "https://github.com/SignalK/SensESP"
+      }
+    ],
+    "frameworks": "arduino",
+    "platforms": "espressif32, espressif8266"
+  }
